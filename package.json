@@ -3,14 +3,15 @@
   "version": "0.0.1",
   "description": "Stylelint config utilized in ottofeller.com projects",
   "main": "index.js",
-  "devDependencies": {
-    "stylelint": "11.1.1",
+  "dependencies": {
     "stylelint-declaration-block-no-ignored-properties": "2.1.0",
     "stylelint-order": "3.1.1"
   },
+  "peerDependencies": {
+    "stylelint": "11.1.1"
+  },
   "author": "ottofeller.com",
   "license": "",
-  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
