@@ -1,4 +1,4 @@
-{
+module.exports = {
   "latest audited version": "11.1.1",
 
   "plugins": [
