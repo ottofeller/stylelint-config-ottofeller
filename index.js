@@ -1,5 +1,5 @@
 module.exports = {
-  "latest audited version": "11.1.1",
+  "latest audited version (unicode-bom property removed for compatibility reasons)": "11.1.1",
 
   "plugins": [
     "stylelint-declaration-block-no-ignored-properties",
@@ -593,7 +593,6 @@ module.exports = {
     "string-no-newline": true,
     "string-quotes": ["double", {"avoidEscape": true}],
     "time-min-milliseconds": 200,
-    "unicode-bom": "never",
     "unit-blacklist": null,
     "unit-case": "lower",
     "unit-no-unknown": true,
@@ -605,5 +604,15 @@ module.exports = {
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
     "value-no-vendor-prefix": [true, {"ignoreValues": ["fill-available"]}],
-  }
+  },
+
+  "ignore-files": [
+    "bower_components",
+    "node_modules",
+    "**/*.html",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
