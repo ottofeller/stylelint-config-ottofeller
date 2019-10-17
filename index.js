@@ -606,7 +606,7 @@ module.exports = {
     "value-no-vendor-prefix": [true, {"ignoreValues": ["fill-available"]}],
   },
 
-  "ignore-files": [
+  "ignoreFiles": [
     "bower_components",
     "node_modules",
     "**/*.html",
